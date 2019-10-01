@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib_hello">
+      <UniqueIdentifier>{38b42426-2b71-4a3c-b0c4-02638eac488e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib_hello\src">
+      <UniqueIdentifier>{6007bc72-b41c-4ac5-a0d8-afeb4d3d1974}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="RustInterop.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\hello_lib\target\debug\incremental\hello_lib-1ayu1yygnx9be\s-fgg7h8xmbf-2nswfy-2q2rng1xwo12o\dep-graph.bin">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\hello_lib\target\debug\incremental\hello_lib-1ayu1yygnx9be\s-fgg7h8xmbf-2nswfy-2q2rng1xwo12o\query-cache.bin">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\hello_lib\target\debug\incremental\hello_lib-1ayu1yygnx9be\s-fgg7h8xmbf-2nswfy-2q2rng1xwo12o\work-products.bin">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\hello_lib\target\debug\incremental\hello_lib-1c34lvnsbansr\s-fgg7h8xq6a-1jm3dep-working\dep-graph.bin">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\hello_lib\target\debug\incremental\hello_lib-1c34lvnsbansr\s-fgg7h8xq6a-1jm3dep-working\query-cache.bin">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\hello_lib\target\debug\incremental\hello_lib-1c34lvnsbansr\s-fgg7h8xq6a-1jm3dep-working\work-products.bin">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\hello_lib\Cargo.lock">
+      <Filter>lib_hello</Filter>
+    </None>
+    <None Include="..\hello_lib\Cargo.toml">
+      <Filter>lib_hello</Filter>
+    </None>
+    <None Include="..\hello_lib\src\lib.rs">
+      <Filter>lib_hello\src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
