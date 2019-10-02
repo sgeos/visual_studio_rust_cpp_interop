@@ -1,0 +1,68 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-build",
+      "appliesTo": "hello_lib/",
+      "type": "launch",
+      "contextType": "build",
+      "workingDirectory": "hello_lib/",
+      "command": "cargo",
+      "args": [
+        "build",
+        "--target=x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "taskName": "task-clean",
+      "appliesTo": "hello_lib/",
+      "type": "launch",
+      "contextType": "clean",
+      "workingDirectory": "hello_lib/",
+      "command": "cargo",
+      "args": [
+        "clean"
+      ]
+    },
+    {
+      "taskName": "cargo-build",
+      "appliesTo": "hello_lib/",
+      "type": "launch",
+      "contextType": "custom",
+      "workingDirectory": "hello_lib/",
+      "command": "cargo",
+      "args": [
+        "build",
+        "--target=x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "taskName": "cargo-test",
+      "appliesTo": "hello_lib/",
+      "type": "launch",
+      "contextType": "custom",
+      "workingDirectory": "hello_lib/",
+      "command": "cargo",
+      "args": [
+        "test",
+        "--target=x86_64-pc-windows-msvc"
+      ]
+    },
+    {
+      "taskName": "cargo-clean",
+      "appliesTo": "hello_lib/",
+      "type": "launch",
+      "contextType": "custom",
+      "workingDirectory": "hello_lib/",
+      "command": "cargo",
+      "args": [
+        "clean"
+      ]
+    },
+    {
+      "taskName": "task-hello_lib",
+      "appliesTo": "hello_lib/",
+      "type": "launch"
+    }
+  ]
+}

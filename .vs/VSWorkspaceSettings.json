@@ -1,0 +1,6 @@
+{
+  "envVars": {
+    "VSCMD_ARG_HOST_ARCH": "x64",
+    "VSCMD_ARG_TGT_ARCH": "x64"
+  }
+}
